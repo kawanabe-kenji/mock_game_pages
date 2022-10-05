@@ -52,11 +52,6 @@
       // config.matchWebGLToCanvasSize = false;
 
       config.devicePixelRatio = 1;
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        container.className = "unity-mobile";
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
-      }
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
