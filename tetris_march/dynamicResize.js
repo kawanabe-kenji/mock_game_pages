@@ -12,10 +12,6 @@ document.addEventListener('DOMContentLoaded', function(event){
 function resize() {
     var width = 1080;
     var height = 1920;
-    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        width = 1920;
-        height = 1080;
-    }
     canvasAspectRatio = width / height;
 
     var windowWidth = window.innerWidth;
